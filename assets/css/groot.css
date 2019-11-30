@@ -1,0 +1,81 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url("../img/background_day.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    font-size: 100%;
+    overflow: hidden;
+}
+
+body.nightTime {
+    background: url("../img/background_night.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+
+main {
+    position: relative;
+}
+
+.title {
+    display: inline-block;
+    height: 12rem;
+}
+
+.animContainer {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 5rem;
+}
+
+.fetchContainer {
+    position: absolute;
+    padding: .9rem;
+    top: 12rem;
+    right: 10rem;
+    height: 11rem;
+    width: 35rem;
+    font-size: 1.1rem;
+    color: rgb(196, 184, 171);
+}
+
+.fetchContainer p {
+    text-align: left;
+}
+
+.fetchContainer h2 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 40rem;
+}
+
+.button--big {
+    font-size: 1.7rem;
+    background-color: rgb(44, 45, 109);
+    color: rgb(177, 136, 90);
+    padding: .94rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+.button--big:hover {
+    background-color: rgb(30, 27, 56);
+}
+
+.button--big:disabled {
+    background-color: rgb(101, 99, 117);
+}
