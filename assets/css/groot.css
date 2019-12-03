@@ -12,7 +12,6 @@ body {
 body.nightTime {
     background: url("../img/background_night.jpg") center center no-repeat;
     background-size: cover;
-    text-align: center;
 }
 
 header {
@@ -50,31 +49,28 @@ header img {
     font-size: 2rem;
 } */
 
-.buttons {
+.button-wrapper {
     display: flex;
     justify-content: space-between;
     margin-left: 25%;
     max-width: 45%;
 }
 
-.button--big {
+button {
     font-size: 1.7vmax;
     background-color: rgb(44, 45, 109);
     color: rgb(177, 136, 90);
     padding: .94rem 2rem;
     text-align: center;
     text-decoration: none;
+    margin: 4px;
     border: none;
 }
 
-.button--big:hover {
+button:hover {
     background-color: rgb(30, 27, 56);
 }
 
-.button--big:disabled {
+button:disabled {
     background-color: rgb(101, 99, 117);
-}
-
-button {
-    margin: 4px;
 }

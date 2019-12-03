@@ -5,7 +5,7 @@ const greeting = new Audio('./assets/sfx/iAmGroot.mp3');
 //HTML elementen die meerdere keren worden gebruikt
 const animContainer = $('.animContainer').get(0);
 const fetchContainer = $('.fetchContainer').get(0);
-const buttonsBig = $('.button--big');
+const buttons = $('button');
 
 //Datum en uren van het moment
 const today = new Date();
@@ -81,29 +81,25 @@ const danceGroot = () => {
 }
 
 //Haal informatie over 'Groot' binnen via Wikipedia en dump het in een section
-const fetchGroot = () => {
-    const url = 'https://en.wikipedia.org/w/api.php?&origin=*&action=opensearch&search=Groot&limit=5"';
-    fetch(url)
-        .then((res) => {
-            return res.json();
-        }).then((data) => {
-            document.querySelector('h2').textContent = 'About Groot';
-            document.querySelector('p').textContent = data[2][0];
-            $(fetchContainer).css('background-color', 'rgba(30, 27, 56, 0.45)');
-        })
-        .catch((error) => {
-            console.log('Er ging iets mis met de fetch...');
-        });
-}
+// const fetchGroot = () => {
+//     const url = 'https://en.wikipedia.org/w/api.php?&origin=*&action=opensearch&search=Groot&limit=5"';
+//     fetch(url)
+//         .then((res) => {
+//             return res.json();
+//         }).then((data) => {
+//             document.querySelector('h2').textContent = 'About Groot';
+//             document.querySelector('p').textContent = data[2][0];
+//             $(fetchContainer).css('background-color', 'rgba(30, 27, 56, 0.45)');
+//         })
+//         .catch((error) => {
+//             console.log('Er ging iets mis met de fetch...');
+//         });
+// }
 
 //Schakel knoppen in of uit
 const btnEnable = () => {
-    for (let el of buttonsBig) {
-        if (el.disabled) {
-            el.disabled = false;
-        } else {
-            el.disabled = true;
-        }
+    for (let el of buttons) {
+        el.disabled ? el.disabled = false : el.disabled = true;
     }
 }
 
@@ -113,6 +109,6 @@ let groot = bodymovin.loadAnimation(animData[0]);
 //Events
 document.querySelector('header img').addEventListener('dblclick', iAmGroot);
 // animContainer.addEventListener('click', fetchGroot);
-document.querySelector('#grow').addEventListener('click', growGroot)
-document.querySelector('#shrink').addEventListener('click', shrinkGroot)
-document.querySelector('#dance').addEventListener('click', danceGroot)
+buttons[0].addEventListener('click', growGroot)
+buttons[1].addEventListener('click', shrinkGroot)
+buttons[2].addEventListener('click', danceGroot)
