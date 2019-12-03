@@ -6,7 +6,6 @@ html {
 body {
     background: url("../img/background_day.jpg") center center no-repeat;
     background-size: cover;
-    text-align: center;
     overflow: hidden;
 }
 
@@ -16,17 +15,22 @@ body.nightTime {
     text-align: center;
 }
 
-.title {
-    height: 12rem;
+header {
+    text-align: center;
+}
+
+header img {
+    height: 20vh;
 }
 
 .animContainer {
-    display: inline-block;
-    width: 40%;
-    margin-bottom: 5rem;
+    width: 40vmax;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.fetchContainer {
+
+/* .fetchContainer {
     position: absolute;
     padding: .9rem;
     top: 12rem;
@@ -44,17 +48,17 @@ body.nightTime {
 .fetchContainer h2 {
     margin-top: 1.5rem;
     font-size: 2rem;
-}
+} */
 
 .buttons {
     display: flex;
     justify-content: space-between;
     margin-left: 25%;
-    width: 50%;
+    max-width: 45%;
 }
 
 .button--big {
-    font-size: 1.7rem;
+    font-size: 1.7vmax;
     background-color: rgb(44, 45, 109);
     color: rgb(177, 136, 90);
     padding: .94rem 2rem;

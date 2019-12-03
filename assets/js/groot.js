@@ -111,7 +111,7 @@ const btnEnable = () => {
 let groot = bodymovin.loadAnimation(animData[0]);
 
 //Events
-document.querySelector('.title').addEventListener('dblclick', iAmGroot);
+document.querySelector('header img').addEventListener('dblclick', iAmGroot);
 // animContainer.addEventListener('click', fetchGroot);
 document.querySelector('#grow').addEventListener('click', growGroot)
 document.querySelector('#shrink').addEventListener('click', shrinkGroot)
