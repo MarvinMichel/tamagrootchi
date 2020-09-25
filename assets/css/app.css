@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin: clamp(0.5rem, 8%, 2rem);
+}
+
+.anim-container {
+  width: clamp(12rem, 30vw, 17rem);
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+button {
+  background-color: rgb(192, 181, 82);
+  color: rgba(255, 255, 255);
+  text-transform: uppercase;
+  border: none;
+  width: 100%;
+  padding: 5%;
+  margin: 2%;
+}
+
+@media only screen and (min-width: 700px) {
+  button {
+    max-width: 10rem;
+  }
+}
