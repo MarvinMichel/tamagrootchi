@@ -1,0 +1,30 @@
+figure {
+  width: clamp(30vh, 70vw, 30vh);
+  margin: 0 auto;
+}
+
+.fill {
+  fill: #7f5b3a;
+}
+
+.outlines {
+  fill: #000;
+}
+
+.root {
+  fill: #a07c5b;
+}
+
+.moss {
+  fill: #617e3a;
+}
+
+.accents {
+  fill: #c0b7b7;
+}
+
+@media only screen and (min-height: 600px) {
+  figure {
+    width: clamp(30vh, 70vw, 35vh);
+  }
+}
