@@ -1,5 +1,5 @@
 figure {
-  width: clamp(30vh, 70vw, 30vh);
+  width: clamp(30vh, 75vw, 35vh);
   margin: 0 auto;
 }
 
@@ -21,10 +21,4 @@ figure {
 
 .accents {
   fill: #c0b7b7;
-}
-
-@media only screen and (min-height: 600px) {
-  figure {
-    width: clamp(30vh, 70vw, 35vh);
-  }
 }
