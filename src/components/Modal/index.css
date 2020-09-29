@@ -1,0 +1,39 @@
+.modal-title {
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35vh;
+  max-width: 40rem;
+  margin: 5% auto;
+}
+
+.flexbox ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  font-size: clamp(0.5em, 4vw, 1em);
+}
+
+.level-bar {
+  width: 35vw;
+  text-align: right;
+  background-color: rgb(240, 240, 240);
+}
+
+.level-bar--fill {
+  background-color: rgb(63, 228, 126);
+  height: 100%;
+  padding-right: 10%;
+  font-size: clamp(0.5em, 3vw, 1em);
+}
+
+.level-bar,
+.level-bar--fill {
+  border-radius: 1em;
+}

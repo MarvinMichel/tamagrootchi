@@ -1,36 +1,9 @@
 .button {
-  box-sizing: border-box;
-  position: relative;
-  display: block;
-  width: 3.5em;
-  height: 3.5em;
-  border: 0.4em solid;
-  border-radius: 50%;
+  width: 3em;
+  height: 3em;
   cursor: pointer;
 }
 
-.button::before {
-  content: '';
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-}
-
-.button--play::before {
-  border-top: 0.7em solid transparent;
-  border-bottom: 0.7em solid transparent;
-  border-left: 1em solid;
-  top: 50%;
-  left: 50%;
-  transform: translate(-35%, -50%);
-}
-
-.button--pause::before {
-  width: 1em;
-  height: 1em;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-left: 0.4em solid;
-  border-right: 0.4em solid;
+.play {
+  transform: scale(1.75);
 }

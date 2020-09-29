@@ -2,7 +2,7 @@ form {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 80vw;
-  max-width: 50rem;
+  width: 90vw;
+  max-width: 20rem;
   margin: 5vh auto;
 }
