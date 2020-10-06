@@ -3,6 +3,10 @@ figure {
   margin: 0 auto;
 }
 
+svg {
+  overflow: visible;
+}
+
 .fill {
   fill: #7f5b3a;
 }

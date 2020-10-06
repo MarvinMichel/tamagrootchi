@@ -4,24 +4,3 @@ header {
   align-items: center;
   height: clamp(5em, 15vh, 12.5em);
 }
-
-h1 {
-  text-transform: uppercase;
-  font-size: clamp(2em, 4vw, 3em);
-  background: repeating-linear-gradient(
-    -55deg,
-    rgba(248, 181, 76, 1),
-    rgb(228, 167, 69),
-    rgb(216, 153, 52),
-    rgba(171, 125, 65, 1)
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-@media only screen and (min-height: 50rem) {
-  h1 {
-    font-size: clamp(2.5em, 7vw, 5em);
-  }
-}

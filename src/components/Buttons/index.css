@@ -1,9 +1,88 @@
 .button {
-  width: 3em;
-  height: 3em;
   cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid;
+  border-radius: 50%;
+  transform: scale(2.5);
 }
 
-.play {
-  transform: scale(1.75);
+.button::after,
+.button::before {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.info {
+  width: 20px;
+  height: 20px;
+}
+
+.info::before,
+.info::after {
+  border-radius: 3px;
+  width: 2px;
+  background: currentColor;
+  left: 7px;
+}
+
+.info::before {
+  height: 2px;
+  top: 2px;
+}
+
+.info::after {
+  bottom: 2px;
+  height: 8px;
+}
+
+.play,
+.pause {
+  transform: scale(3);
+}
+
+.play::before {
+  width: 0;
+  height: 10px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid;
+  top: 4px;
+  left: 7px;
+}
+
+.pause::before {
+  width: 6px;
+  height: 6px;
+  left: 6px;
+  top: 6px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+
+.stop::before {
+  width: 6px;
+  height: 6px;
+  top: 6px;
+  left: 6px;
+  background: currentColor;
+}
+
+.close {
+  transform: scale(1);
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  border: none;
+}
+
+.close:hover {
+  background: red;
+  color: white;
+  padding: 5px;
 }

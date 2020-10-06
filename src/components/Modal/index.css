@@ -1,12 +1,28 @@
+.modal {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(255 255 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: clamp(15rem, 90vw, 40rem);
+}
+
 .modal-title {
   text-align: center;
+  margin: 10% 0 0;
 }
 
 .flexbox {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  height: 35vh;
+  height: 35%;
+  max-height: 18em;
   max-width: 40rem;
   margin: 5% auto;
 }
@@ -21,7 +37,7 @@
 }
 
 .level-bar {
-  width: 35vw;
+  width: clamp(10rem, 35vw, 20rem);
   text-align: right;
   background-color: rgb(240, 240, 240);
 }
@@ -36,4 +52,15 @@
 .level-bar,
 .level-bar--fill {
   border-radius: 1em;
+}
+
+.modal p {
+  width: clamp(15rem, 90%, 30rem);
+  margin: 0 auto 5vh;
+}
+
+@media only screen and (min-width: 600px) {
+  .modal-title {
+    margin: 5% 0 0;
+  }
 }
