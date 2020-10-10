@@ -4,7 +4,7 @@ An updated version of my first project. Since my first project I've grown a lot 
 
 ## Concept
 
-The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'Groot'. The application has three buttons to control Groot with: An info-button that will open a modal to displays information about Groot which is retrieved from the [Superhero API](https://superheroapi.com/index.html), a dance-button which will make Groot dance and third button that let Groot wave to you.
+The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'Groot'. The application has three buttons to control Groot with. On the right you can find an info-button that will open a modal to displays information about Groot, which is retrieved from the [Superhero API](https://superheroapi.com/index.html).
 
 <img width="1552" alt="Screenshot 2020-10-09 at 20 42 45" src="https://user-images.githubusercontent.com/25977763/95620200-17645b80-0a70-11eb-8f8a-6abab9a9aeea.png">
 
