@@ -5,7 +5,7 @@ form {
   width: 90vw;
   max-width: 20rem;
   position: fixed;
-  top: 80%;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%, 50%);
 }
