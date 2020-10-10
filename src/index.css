@@ -1,10 +1,3 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  background: #25252b;
-}
-
 * {
   touch-action: manipulation;
 }
@@ -13,12 +6,16 @@ html {
 *:before,
 *:after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  position: relative;
+body,
+html {
+  background: #25252b;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 
 .root {
@@ -26,14 +23,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#c {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
 }
 
 .loading {

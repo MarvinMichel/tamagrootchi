@@ -1,28 +1,3 @@
-figure {
-  width: clamp(30vh, 75vw, 35vh);
-  margin: 0 auto;
-}
-
-svg {
-  overflow: visible;
-}
-
-.fill {
-  fill: #7f5b3a;
-}
-
-.outlines {
-  fill: #000;
-}
-
-.root {
-  fill: #a07c5b;
-}
-
-.moss {
-  fill: #617e3a;
-}
-
-.accents {
-  fill: #c0b7b7;
+#c {
+  width: 100%;
 }

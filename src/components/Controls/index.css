@@ -4,9 +4,8 @@ form {
   align-items: center;
   width: 90vw;
   max-width: 20rem;
-  z-index: 1;
   position: fixed;
-  top: 85%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, 50%);
 }

@@ -12,6 +12,7 @@ const Character = () => {
       possibleAnims,
       mixer,
       idle,
+      danceAnim,
       clock = new THREE.Clock(),
       // currentlyAnimating = false,
       loaderAnim = document.getElementById('js-loader');
@@ -91,9 +92,9 @@ const Character = () => {
             clip.tracks.splice(3, 3);
             clip.tracks.splice(9, 3);
             clip = mixer.clipAction(clip);
-            console.log(clip);
             return clip;
           });
+          danceAnim = possibleAnims[0];
 
           let idelAnim = THREE.AnimationClip.findByName(fileAnimations, 'idle');
 
@@ -174,20 +175,33 @@ const Character = () => {
       return needResize;
     }
 
-    const playButton = document.querySelector('.button.play');
-    playButton.addEventListener('click', () =>
-      playModifierAnimation(idle, 0.25, possibleAnims[0], 0.25)
-    );
+    const buttons = document.querySelectorAll('.button');
+    const danceButton = document.querySelector('.button.dance');
+    danceButton.addEventListener('click', () => playModifierAnimation(idle, 0.25, danceAnim, 0.25));
+
+    function toggleButtons(flag) {
+      buttons.forEach(button => {
+        button.classList.toggle('disabled');
+        if (flag) {
+          button.setAttribute('disabled', flag);
+        } else {
+          button.removeAttribute('disabled');
+        }
+      });
+    }
 
     function playModifierAnimation(from, fSpeed, to, tSpeed) {
       to.setLoop(THREE.LoopOnce);
       to.reset();
       to.play();
       from.crossFadeTo(to, fSpeed, true);
+      toggleButtons(true);
       setTimeout(() => {
         from.enabled = true;
         to.crossFadeTo(from, tSpeed, true);
         // currentlyAnimating = false;
+        toggleButtons(false);
+        console.log(to._clip.duration);
       }, to._clip.duration * 1000 - (tSpeed + fSpeed) * 1000);
     }
   });

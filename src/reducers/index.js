@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import playReducer from './play-pause';
+import danceReducer from './dance';
 import infoReducer from './info';
 
 const allReducers = combineReducers({
-  isPlaying: playReducer,
+  isDancin: danceReducer,
   isOpen: infoReducer,
 });
 

@@ -1,6 +1,6 @@
-export const play = () => {
+export const dance = () => {
   return {
-    type: 'PLAY',
+    type: 'DANCE',
   };
 };
 
