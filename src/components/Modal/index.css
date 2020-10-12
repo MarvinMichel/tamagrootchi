@@ -1,0 +1,61 @@
+.modal {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(86 86 86);
+  color: #f1f1f1;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: clamp(15rem, 90vw, 40rem);
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 35%;
+  max-height: 18em;
+  max-width: 40rem;
+  margin: 5% auto;
+}
+
+.flexbox ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  font-size: clamp(0.5em, 4vw, 1em);
+}
+
+.level-bar {
+  width: clamp(10rem, 35vw, 20rem);
+  text-align: right;
+  color: #000;
+  background-color: rgb(240, 240, 240);
+}
+
+.level-bar--fill {
+  background-color: rgb(63, 228, 126);
+  height: 100%;
+  padding-right: 10%;
+  font-size: clamp(0.5em, 3vw, 1em);
+}
+
+.level-bar,
+.level-bar--fill {
+  border-radius: 1em;
+}
+
+.modal p {
+  width: clamp(15rem, 90%, 30rem);
+  margin: 0 auto 1.5em;
+}
