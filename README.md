@@ -4,13 +4,13 @@ An updated version of my first project. Since my first project I've grown a lot 
 
 ## Concept
 
-The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'Groot'. The application has three buttons to control Groot with. On the right you can find an info-button that will open a modal to displays information about Groot, which is retrieved from the [Superhero API](https://superheroapi.com/index.html).
+The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'Groot'. The application has three buttons to control Groot with. On the right you can find an info-button that will open a modal to displays information about Groot, which is retrieved from the [SuperHero API](https://superheroapi.com/index.html).
 
 <img width="1552" alt="Screenshot 2020-10-12 at 18 18 37" src="https://user-images.githubusercontent.com/25977763/95768971-6cde7980-0cb7-11eb-8cf0-22f51ce3e1db.png">
 
 ## What you need
 * A 3D model for the character with animations.
-* An API-token from the Superhero API.
+* An API-token from the SuperHero API.
 * The dependencies listed below.
 >💡 You can download a 3D model or create one yourself with Blender or such software. I've got mine from [Sketchfab](https://sketchfab.com/3d-models/groot-7e69fddb8e6d4955827bfbcbaf2e83b8) thanks to [Chemaron](https://sketchfab.com/chemaron). The animations are added with [Adobe Mixamo](https://www.mixamo.com/).
 
@@ -20,7 +20,7 @@ The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'G
 - [React-Modal](https://github.com/reactjs/react-modal)
 - [Redux](https://redux.js.org/)
 - [Three.js](https://github.com/mrdoob/three.js/)
-- [Superhero API](https://superheroapi.com/index.html)
+- [SuperHero API](https://superheroapi.com/index.html)
 
 ## How to use?
 
