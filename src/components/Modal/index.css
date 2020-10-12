@@ -15,6 +15,10 @@
 
 .modal-title {
   text-align: center;
+  margin-bottom: 5%;
+  font-family: 'Roboto Condensed, "Trebuchet MS", Helvetica, Arial, sans-serif';
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .flexbox {
@@ -24,7 +28,7 @@
   height: 35%;
   max-height: 18em;
   max-width: 40rem;
-  margin: 5% auto;
+  margin: 0 auto 5% auto;
 }
 
 .flexbox ul {
