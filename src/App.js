@@ -1,13 +1,15 @@
 import React from 'react';
-import Header from './components/Header/Header';
+import InfoButton from './components/Buttons/InfoButton';
 import Character from './components/Character/Character';
 import Controls from './components/Controls/Controls';
+import Modal from './components/Modal/Modal';
 
 const App = () => (
   <>
-    <Header />
+    <InfoButton />
     <Character />
     <Controls />
+    <Modal />
   </>
 );
 

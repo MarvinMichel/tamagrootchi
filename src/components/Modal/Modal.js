@@ -6,7 +6,7 @@ import { open } from '../../actions';
 import './index.css';
 require('dotenv').config();
 
-const Modal = props => {
+const Modal = () => {
   const [powers, setPowers] = useState([]);
   const [stats, setStats] = useState([]);
 

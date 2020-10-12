@@ -1,5 +1,4 @@
 import React from 'react';
-import Modal from '../Modal/Modal';
 import './index.css';
 import { useDispatch } from 'react-redux';
 import { open } from '../../actions';
@@ -9,8 +8,9 @@ const InfoButton = () => {
 
   return (
     <>
-      <i className="button info" onClick={() => dispatch(open())}></i>
-      <Modal />
+      <button className="info" onClick={() => dispatch(open())} title="Info">
+        &#9432;
+      </button>
     </>
   );
 };

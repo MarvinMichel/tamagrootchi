@@ -12,9 +12,6 @@ const Character = () => {
       possibleAnims,
       mixer,
       idle,
-      danceAnim,
-      waveAnim,
-      kickAnim,
       clock = new THREE.Clock(),
       loaderAnim = document.getElementById('js-loader');
 
@@ -78,7 +75,7 @@ const Character = () => {
           model.scale.set(2, 2, 2);
 
           // Make model stand on floor
-          model.position.y = -11;
+          model.position.y = -10;
 
           scene.add(model);
           loaderAnim.remove();
@@ -95,7 +92,6 @@ const Character = () => {
             clip = mixer.clipAction(clip);
             return clip;
           });
-          [danceAnim, kickAnim, waveAnim] = possibleAnims;
 
           let idelAnim = THREE.AnimationClip.findByName(fileAnimations, 'idle');
 
@@ -134,7 +130,7 @@ const Character = () => {
       let floor = new THREE.Mesh(floorGeometry, floorMaterial);
       floor.rotation.x = -0.5 * Math.PI;
       floor.recieveShadow = true;
-      floor.position.y = -11;
+      floor.position.y = -10;
       scene.add(floor);
 
       let geometry = new THREE.SphereGeometry(8, 32, 32);
@@ -176,23 +172,23 @@ const Character = () => {
       return needResize;
     }
 
-    const buttons = document.querySelectorAll('.button');
-    const danceButton = document.querySelector('.button.dance');
+    const buttons = document.querySelectorAll('button');
+    const danceButton = document.querySelector('.dance');
     danceButton.addEventListener('click', e => {
       e.preventDefault();
-      playModifierAnimation(idle, 0.25, danceAnim, 0.25);
+      playModifierAnimation(idle, 0.25, possibleAnims[0], 0.25);
     });
 
-    const waveButton = document.querySelector('.button.wave');
+    const waveButton = document.querySelector('.wave');
     waveButton.addEventListener('click', e => {
       e.preventDefault();
-      playModifierAnimation(idle, 0.25, waveAnim, 0.25);
+      playModifierAnimation(idle, 0.25, possibleAnims[2], 0.25);
     });
 
-    const kickButton = document.querySelector('.button.kick');
+    const kickButton = document.querySelector('.kick');
     kickButton.addEventListener('click', e => {
       e.preventDefault();
-      playModifierAnimation(idle, 0.25, kickAnim, 0.25);
+      playModifierAnimation(idle, 0.25, possibleAnims[1], 0.25);
     });
 
     function toggleButtons(flag = false) {

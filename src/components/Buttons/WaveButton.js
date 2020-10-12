@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 
 const WaveButton = () => (
-  <button className="button wave">
+  <button className="wave">
     <span role="img" aria-label="Wave" title="Say Hello">
       👋
     </span>

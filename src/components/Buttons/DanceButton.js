@@ -3,7 +3,7 @@ import './index.css';
 
 const DanceButton = () => {
   return (
-    <button className="button dance">
+    <button className="dance">
       <span role="img" aria-label="Dance" title="Dance">
         🕺
       </span>
