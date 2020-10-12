@@ -16,7 +16,6 @@
     "redux": "^4.0.5",
     "three": "^0.121.1"
   },
-  "type": "module",
   "scripts": {
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
