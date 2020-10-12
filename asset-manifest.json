@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/tamagrootchi/static/css/main.3e955aa0.chunk.css",
-    "main.js": "/tamagrootchi/static/js/main.c3d1f8b3.chunk.js",
-    "main.js.map": "/tamagrootchi/static/js/main.c3d1f8b3.chunk.js.map",
-    "runtime-main.js": "/tamagrootchi/static/js/runtime-main.3c239bd2.js",
-    "runtime-main.js.map": "/tamagrootchi/static/js/runtime-main.3c239bd2.js.map",
-    "static/js/2.3ed53c6c.chunk.js": "/tamagrootchi/static/js/2.3ed53c6c.chunk.js",
-    "static/js/2.3ed53c6c.chunk.js.map": "/tamagrootchi/static/js/2.3ed53c6c.chunk.js.map",
-    "index.html": "/tamagrootchi/index.html",
-    "precache-manifest.f66090108485b0562dec24130a62f103.js": "/tamagrootchi/precache-manifest.f66090108485b0562dec24130a62f103.js",
-    "service-worker.js": "/tamagrootchi/service-worker.js",
-    "static/css/main.3e955aa0.chunk.css.map": "/tamagrootchi/static/css/main.3e955aa0.chunk.css.map",
-    "static/js/2.3ed53c6c.chunk.js.LICENSE.txt": "/tamagrootchi/static/js/2.3ed53c6c.chunk.js.LICENSE.txt"
+    "main.css": "/marvinmichel.github.io/tamagrootchi/static/css/main.af6ff731.chunk.css",
+    "main.js": "/marvinmichel.github.io/tamagrootchi/static/js/main.8250ff9e.chunk.js",
+    "main.js.map": "/marvinmichel.github.io/tamagrootchi/static/js/main.8250ff9e.chunk.js.map",
+    "runtime-main.js": "/marvinmichel.github.io/tamagrootchi/static/js/runtime-main.23644e20.js",
+    "runtime-main.js.map": "/marvinmichel.github.io/tamagrootchi/static/js/runtime-main.23644e20.js.map",
+    "static/js/2.9e4a5ce9.chunk.js": "/marvinmichel.github.io/tamagrootchi/static/js/2.9e4a5ce9.chunk.js",
+    "static/js/2.9e4a5ce9.chunk.js.map": "/marvinmichel.github.io/tamagrootchi/static/js/2.9e4a5ce9.chunk.js.map",
+    "index.html": "/marvinmichel.github.io/tamagrootchi/index.html",
+    "precache-manifest.fa6b9649fa0c08037e81104c4b87ff0b.js": "/marvinmichel.github.io/tamagrootchi/precache-manifest.fa6b9649fa0c08037e81104c4b87ff0b.js",
+    "service-worker.js": "/marvinmichel.github.io/tamagrootchi/service-worker.js",
+    "static/css/main.af6ff731.chunk.css.map": "/marvinmichel.github.io/tamagrootchi/static/css/main.af6ff731.chunk.css.map",
+    "static/js/2.9e4a5ce9.chunk.js.LICENSE.txt": "/marvinmichel.github.io/tamagrootchi/static/js/2.9e4a5ce9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/marvinmichel.github.io/tamagrootchi/static/media/RobotoCondensed-Regular.52ee8b59.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c239bd2.js",
-    "static/js/2.3ed53c6c.chunk.js",
-    "static/css/main.3e955aa0.chunk.css",
-    "static/js/main.c3d1f8b3.chunk.js"
+    "static/js/runtime-main.23644e20.js",
+    "static/js/2.9e4a5ce9.chunk.js",
+    "static/css/main.af6ff731.chunk.css",
+    "static/js/main.8250ff9e.chunk.js"
   ]
 }
