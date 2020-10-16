@@ -24,7 +24,7 @@ The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'G
 
 ## How to use?
 
-Visit the [application]() or follow the steps below:
+Visit the [application](https://marvinmichel.github.io/tamagrootchi/) or follow the steps below:
 
 1. Download the .zip file or clone the repository
 2. Open the terminal and move to the project directory
