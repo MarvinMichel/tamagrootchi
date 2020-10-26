@@ -1,27 +1,4 @@
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Trebuchet MS'), url('./fonts/OpenSans-Regular.ttf') format('ttf');
-}
-@font-face {
-  font-family: 'Open Sans Light';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Trebuchet MS Italic'), url('./fonts/OpenSans-Light.ttf') format('ttf');
-}
-@font-face {
-  font-family: 'Open Sans Semibold';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Trebuchet MS Semibold'), url('./fonts/OpenSans-Light.ttf') format('ttf');
-}
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Trebuchet MS Semibold'), url('./fonts/RobotoCondensed-Regular.ttf') format('ttf');
-}
+@import 'fonts.css';
 
 * {
   touch-action: manipulation;
