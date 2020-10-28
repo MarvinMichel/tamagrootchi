@@ -1,10 +1,10 @@
 # Tamagrootchi
 
-An updated version of my first project. Since my first project I've grown a lot as a developer and I wanted to implement the new knowledge I've gained. That's why I decided to look back at where I started and rebuild the whole application. The old version used Lottie.js to move the SVG with JSON data. Version 2.0 works with Three.js and a 3D character model.
+An updated version of my first project. Since my first project I've grown a lot as a developer and I wanted to implement the new knowledge I've gained. That's why I decided to look back at where I started and rebuild the whole application. The old version used Lottie.js to move the SVG with JSON data. Version 2.0 works with Three.js and a 3D character model. The application is completely responsive and works on every device.
 
 ## Concept
 
-The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'Groot'. The application has three buttons to control Groot with. On the right you can find an info-button that will open a modal to displays information about Groot, which is retrieved from the [SuperHero API](https://superheroapi.com/index.html).
+The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'Groot'. The application has three buttons to control Groot with. You can kick him in the 🥜, make him dance or wave to you. On the right you can find an info-button that will open a modal to displays information about Groot and his skills. His skills are retrieved from the [SuperHero API](https://superheroapi.com/index.html).
 
 <img width="1552" alt="Screenshot 2020-10-12 at 18 18 37" src="https://user-images.githubusercontent.com/25977763/95768971-6cde7980-0cb7-11eb-8cf0-22f51ce3e1db.png">
 
@@ -13,6 +13,8 @@ The application is a Tamagotchi of Marvel's Guardians of the Galaxy character 'G
 * An API-token from the SuperHero API.
 * The dependencies listed below.
 >💡 You can download a 3D model or create one yourself with Blender or such software. I've got mine from [Sketchfab](https://sketchfab.com/3d-models/groot-7e69fddb8e6d4955827bfbcbaf2e83b8) thanks to [Chemaron](https://sketchfab.com/chemaron). The animations are added with [Adobe Mixamo](https://www.mixamo.com/).
+
+>🚨 Since the SuperHero API doesn't allow CORS, to show the skills you should disable CORS via your browser. There are mutliple extensions that could do that.
 
 ## Dependencies
 
