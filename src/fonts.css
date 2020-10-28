@@ -2,8 +2,8 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), url('./fonts/OpenSans-Regular.ttf') format('ttf');
-  src: local('Open Sans'), url('./fonts/OpenSans-Regular.eot') format('eot');
+  src: local('Open Sans'), url('./fonts/OpenSans-Regular.ttf') format('truetype');
+  src: local('Open Sans'), url('./fonts/OpenSans-Regular.eot') format('embedded-opentype');
   src: local('Open Sans'), url('./fonts/OpenSans-Regular.woff') format('woff');
   src: local('Open Sans'), url('./fonts/OpenSans-Regular.woff2') format('woff2');
   src: local('Open Sans'), url('./fonts/OpenSans-Regular.svg') format('svg');
@@ -12,8 +12,8 @@
   font-family: 'Open Sans Light';
   font-style: normal;
   font-weight: 300;
-  src: local('Open Sans Light'), url('./fonts/OpenSans-Light.ttf') format('ttf');
-  src: local('Open Sans Light'), url('./fonts/OpenSans-Light.eot') format('eot');
+  src: local('Open Sans Light'), url('./fonts/OpenSans-Light.ttf') format('truetype');
+  src: local('Open Sans Light'), url('./fonts/OpenSans-Light.eot') format('embedded-opentype');
   src: local('Open Sans Light'), url('./fonts/OpenSans-Light.woff') format('woff');
   src: local('Open Sans Light'), url('./fonts/OpenSans-Light.woff2') format('woff2');
   src: local('Open Sans Light'), url('./fonts/OpenSans-Light.svg') format('svg');
@@ -22,8 +22,8 @@
   font-family: 'Open Sans Semibold';
   font-style: normal;
   font-weight: 600;
-  src: local('Open Sans Semibold'), url('./fonts/OpenSans-SemiBold.ttf') format('ttf');
-  src: local('Open Sans Semibold'), url('./fonts/OpenSans-SemiBold.eot') format('eot');
+  src: local('Open Sans Semibold'), url('./fonts/OpenSans-SemiBold.ttf') format('truetype');
+  src: local('Open Sans Semibold'), url('./fonts/OpenSans-SemiBold.eot') format('embedded-opentype');
   src: local('Open Sans Semibold'), url('./fonts/OpenSans-SemiBold.woff') format('woff');
   src: local('Open Sans Semibold'), url('./fonts/OpenSans-SemiBold.woff2') format('woff2');
   src: local('Open Sans Semibold'), url('./fonts/OpenSans-SemiBold.svg') format('svg');
@@ -32,8 +32,9 @@
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Condensed'), url('./fonts/RobotoCondensed-Regular.ttf') format('ttf');
-  src: local('Roboto Condensed'), url('./fonts/RobotoCondensed-Regular.eot') format('eot');
+  src: local('Roboto Condensed'), url('./fonts/RobotoCondensed-Regular.ttf') format('truetype');
+  src: local('Roboto Condensed'),
+    url('./fonts/RobotoCondensed-Regular.eot') format('embedded-opentype');
   src: local('Roboto Condensed'), url('./fonts/RobotoCondensed-Regular.woff') format('woff');
   src: local('Roboto Condensed'), url('./fonts/RobotoCondensed-Regular.woff2') format('woff2');
   src: local('Roboto Condensed'), url('./fonts/RobotoCondensed-Regular.svg') format('svg');
